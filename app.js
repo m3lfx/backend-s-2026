@@ -8,7 +8,7 @@ const order = require('./routes/order');
 
 // app.use(cors());
 app.use(cors({
-    origin: "http://localhost:5173",
+    origin: "https://itcp318-s3a.onrender.com",
     credentials: true
 }));
 app.use(cookieParser());
